@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./favicon.png"/>
+    <title>Happy Vietnamese woman's day</title>
+</head>
+<script language=JavaScript>
+    var message="Do not view source please";
+    function clickIE() {if (document.all) {(message);return false;}}
+    function clickNS(e) {if
+    (document.layers||(document.getElementById&&!document.all)) {
+    if (e.which==2||e.which==3) {(message);return false;}}}
+    if (document.layers)
+    {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=clickNS;}
+    else{document.onmouseup=clickNS;document.oncontextmenu=clickIE;}
+    document.oncontextmenu=new Function("return false")
+</script>
+<style>
+    body{
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    /* @media screen and (max-width: 600px) { */
+        #myVideo{
+            overflow: hidden;
+            width: 100%;
+        }
+    /* } */
+
+
+</style>
+
+
+
+<body onkeydown="return false">
+
+
+
+    </video>
+
+        <div style="position: absolute; top:0">
+            <div><audio id="myAudio" playsinline autoplay loop>
+                <source src="music.mp3">
+            </audio></div>
+            <video autoplay muted loop playsinline id="myVideo">
+                <source id="myVideo" src="TrangTH3.mp4" type="video/mp4">
+            </video>
+        </div>
+
+
+        <!-- <embed src="./music.mp3" autostart=true loop=true> -->
+
+</div>
+
+</body>
+</html>
